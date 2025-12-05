@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 from sussexdrone_analyzer import SussexDroneAnalyzer
 from excel_exporter import SussexDroneExcelExporter
+from tqdm import tqdm
 
 
 def main():

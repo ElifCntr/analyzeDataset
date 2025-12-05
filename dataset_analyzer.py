@@ -8,6 +8,8 @@ import numpy as np
 from PIL import Image
 from typing import Dict, List, Optional, Tuple
 
+from tqdm import tqdm
+
 
 class YOLODatasetAnalyzer:
     """
@@ -225,7 +227,7 @@ class YOLODatasetAnalyzer:
         video_folders = self.find_videos(image_folder_name)
         
         results = []
-        for video_folder in video_folders:
+        for video_folder in tqdm(video_folders, desc="Analyzing videos", unit="video"):
             stats = self.analyze_video(video_folder, image_folder_name)
             if stats:
                 results.append(stats)
