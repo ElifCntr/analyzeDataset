@@ -1,0 +1,37 @@
+{
+  "filter_method": "static_ground",
+  "videos_analyzed": 51,
+  "videos_excluded": 162,
+  "drone_trajectories": {
+    "num_trajectories": 138,
+    "avg_length": 75.35507246376811,
+    "median_length": 22.0,
+    "min_length": 3,
+    "max_length": 676,
+    "length_distribution": {
+      "short": 76,
+      "medium": 31,
+      "long": 31
+    },
+    "avg_speed": 0.010038358757804624,
+    "hovering_percentage": 100.0,
+    "avg_direction_changes": 11.405797101449275,
+    "avg_straightness": 0.7743805349195607
+  },
+  "bird_trajectories": {
+    "num_trajectories": 28,
+    "avg_length": 57.535714285714285,
+    "median_length": 6.0,
+    "min_length": 3,
+    "max_length": 840,
+    "length_distribution": {
+      "short": 18,
+      "medium": 7,
+      "long": 3
+    },
+    "avg_speed": 0.003394118842227036,
+    "hovering_percentage": 100.0,
+    "avg_direction_changes": 10.571428571428571,
+    "avg_straightness": 0.7419808397184608
+  }
+}
